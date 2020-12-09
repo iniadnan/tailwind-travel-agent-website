@@ -1,0 +1,116 @@
+body {
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    position: relative;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+    margin: 0px auto;
+}
+
+#nav a {
+    color: #888AA2;
+}
+#nav .active {
+    color: #222534;
+}
+
+#header .item .header-love-cover {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#header .item .header-cover-text {
+    height: 37.5%;
+    background: linear-gradient(360deg, #222534 0%, rgba(34, 37, 52, 0) 100%);
+    padding: 50px;
+    border-radius: 14px;
+}
+#header .item .header-cover-text .header-text-right a {
+    background-color: #1F4AA8;
+    border-radius: 6px;
+}
+#header .item img {
+    border-radius: 14px;
+}
+
+#hero {
+    padding: 50px 90px;
+}
+
+#main {
+    padding: 90px 90px 70px;
+    background-color: #F1F5FA;
+}
+.main-container-container {
+    flex-basis: calc(25% - 20px);
+}
+.main-container-container article {
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+.main-cover-text {
+    height: 37.5%;
+    background: linear-gradient(360deg, rgba(34, 37, 52, 0.6) 0%, rgba(34, 37, 52, 0) 100%);
+    padding: 25px;
+    border-radius: 14px;
+}
+#main img {
+    border-radius: 14px;
+}
+
+#customers {
+    padding: 60px 90px;
+}
+#customers h3 {
+    margin-bottom: 108px;
+}
+#customers .customers-left .img-1 {
+    top: -40px;
+    right: 60px;
+}
+#customers .customers-left .img-2 {
+    top: 40px;
+}
+#customers .customers-left .img-3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#customers .customers-center .card {
+    padding: 30px;
+    border: 1px solid #E7E7E7;
+    border-radius: 18px; 
+}
+#customers .customers-center .card-header {
+    position: relative;
+    text-align: center;
+    height: 0px;
+}
+#customers .customers-center .card-header img {
+    top: -91px;
+}
+#customers .customers-center .card-body {
+    margin-top: 45px;
+}
+#customers .customers-right .img-1 {
+    top: -20px;
+    left: 120px;
+}
+#customers .customers-right .img-2 {
+    top: 60px;
+    right: 0px;
+}
+#customers .customers-right .img-3 {
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+}
